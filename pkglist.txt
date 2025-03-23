@@ -33,3 +33,4 @@ xorg-server
 xorg-xinit
 zram-generator
 xorg-xrandr
+tumbler

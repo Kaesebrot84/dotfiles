@@ -28,10 +28,10 @@ system_update() {
 init_dotfiles() {
        echo -e "${green_color}[*] Preparing configuration folder...${no_color}"
        mkdir ~/.config
-       rm ~/.bashrc
-       rm ~/.bash_profile
-       rm ~/.config/i3/config
-       rm ~/.config/starship.toml
+       rm -f ~/.bashrc
+       rm -f ~/.bash_profile
+       rm -f ~/.config/i3/config
+       rm -f ~/.config/starship.toml
        
        mkdir ~/.config/alacritty
        mkdir ~/.config/nvim
@@ -51,7 +51,7 @@ init_dotfiles() {
        ln -s $PWD/polybar/config.ini ~/.config/polybar/config.ini # polybar
        ln -s $PWD/rofi/config.rasi ~/.config/rofi/config.rasi     # rofi
        ln -s $PWD/starship.toml ~/.config/starship.toml           # starship
-       ln -s $PWD/betterlockscreen/betterlockscreenrc	~/.config/betterlockscreen/betterlockscreenrc  # betterlockscreen
+      # ln -s $PWD/betterlockscreen/betterlockscreenrc	~/.config/betterlockscreen/betterlockscreenrc  # betterlockscreen
        ln -s $PWD/.xinitrc ~/.xinitrc				   # .xinitrc
 }
 
