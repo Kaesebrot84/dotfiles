@@ -57,13 +57,13 @@ init_dotfiles() {
 
 init_wallpaper() {
     echo -e "${green_color}[*] Copying wallpaper files...${no_color}"
-    mkdir ~/Pictures
-    mkdir ~/Pictures/Wallpaper
-    cp -r $PWD/walls/. ~/Pictures/Wallpaper/
+    mkdir ~/pictures
+    mkdir ~/pictures/wallpaper
+    cp -r $PWD/walls/. ~/pictures/wallpaper/
     
     
     echo -e "${green_color}[*] Generating rofi theme...${no_color}"
-    wal -i ~/Pictures/Wallpaper/cabin.png
+    wal -i ~/pictures/wallpaper/blue_skeleton.png
 }
 
 init_vim() {
