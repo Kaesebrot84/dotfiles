@@ -9,14 +9,3 @@
 4. Clone Reporsitory `git clone https://github.com/Kaesebrot84/dotfiles.git`
 5. `cd dotfiles`
 6. Run `bash install.sh`
-
-## TODO
-
-Install:
-* `paru`
-* `ripgrep`
-* `betterlockscreen`
-* `bluez`
-* (optional) `flameshot`
-
-![screenshot plain desktop](screenshots/2025-03-23_13-58.png "Screenshot plain desktop")
